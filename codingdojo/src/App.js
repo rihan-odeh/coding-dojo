@@ -12,12 +12,12 @@ import UseRef from './Components/UseRef';
 function App() {
   return (
     <div className="App">
-    {/* <MyPage/>
+    <MyPage/>
     <PersonCard firstName={'Rihan'} lastName={'Odeh'} age={25} hairColor={'Brown'}/>
    < PersonCard firstName={'Tamer'} lastName={'Mansour'} age={20} hairColor={'Brown'}/>
    <PersonCard firstName={'Mohammad'} lastName={'Husseini'} age={23} hairColor={'Brown'}/>
-   < PersonCard firstName={'Ward'} lastName={'Qweida'} age={20} hairColor={'Brown'}/> */}
-   {/* <Header />
+   < PersonCard firstName={'Ward'} lastName={'Qweida'} age={20} hairColor={'Brown'}/>
+   <Header />
    <Navigation />
    <Main  header={ "Header Prop" }>
    
@@ -25,13 +25,9 @@ function App() {
             <SubContents />
             <SubContents />
             <Advertisement />
-        </Main> */}
-   {/* <MyComponent header={ "Header Prop" }>
-            <p>This is a child</p>
-            <p>This is another child</p>
-            <p>This is even another child</p>
-        </MyComponent>  */}
-      <UseRef/>
+        </Main>
+   
+      
 
    
 
